@@ -19,7 +19,7 @@ const mongoose = require('mongoose')
 mongoose.Promise = global.Promise;
 
 mongoose
-  .connect('mongodb+srv://shafnis123:Q9HgqyiR33RzqO6S@cluster0.lospciv.mongodb.net/?retryWrites=true&w=majority', {
+  .connect('mongodb+srv://credentials', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
